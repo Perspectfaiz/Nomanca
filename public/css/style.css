@@ -1,0 +1,193 @@
+body{
+    background-color: pink;
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+
+.container{
+    flex: 1;
+}
+
+.landing{
+    /* margin-top: 30vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('https://images.pexels.com/photos/3389613/pexels-photo-3389613.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-size: cover;
+    background-position: center;
+    height: 75vh;
+}
+
+.salud{
+    font-size: 3rem;
+}
+.salud span{
+    color: #fe424fe0;
+}
+
+.explore-btn{
+    transition: all 200ms ease-in-out !important;
+    width: 120px !important;
+}
+
+.explore-btn:hover{
+    width: 150px !important;
+    border-radius: 20px !important;
+    background-color: #fe424d !important;
+    color: white !important;
+    border-color:#22222200  !important;
+    box-shadow: 0 0 20px #fe424f79 !important;
+}
+
+
+/* .plus-jakarta-sans-<uniquifier> {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+.navbar{
+    height: 5rem;
+    background-color: #ffffff;
+}
+
+.fa-umbrella-beach{
+    color: #fe424d;
+    font-size: 2rem;
+}
+
+.nav-link{
+    color: #222222 !important;
+}   
+
+/* Footer */
+
+.f-info-links a{
+    text-decoration: none;
+    color: #222222;
+}
+
+.f-info-links a:hover{
+    text-decoration: underline;
+}
+
+.f-info-links{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.f-info-brand{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.f-info-socials{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.f-info-socials i{
+    font-size: 1.2rem;
+    margin: 0 0.5rem;
+}
+
+.f-info{
+    text-align: center;
+    height: 8rem;
+    display: flex;
+    background-color: #ebebeb;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Cards */
+
+.successmsg{
+    color: rgb(7, 189, 58);
+}
+
+.listing-link{
+    text-decoration: none;
+    color: #222222;
+}
+
+.listing-card{
+    border: none !important;
+    margin-bottom: 2rem;
+}
+
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+
+.card-body{
+    padding:0 !important;
+}
+
+.card-text p{
+    font-weight: 400;
+}
+
+/* Card Effect */
+.card-img-overlay{
+    opacity: 0;
+}
+
+.card:hover .card-img-overlay{
+    opacity: 0.2;
+    background-color: #ffffff;
+
+}
+
+.add-btn, .edit-btn{ 
+    background-color: #fe424d !important;
+    border: none !important;
+}
+
+
+/* Show Page */
+.show-img{
+    height: 30vh;
+    
+}
+
+.btns{
+    display: flex;
+}
+
+/* Error page */
+
+.error-form{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.alert-para{
+    opacity: 0.5;
+    font-size: 12px;
+}
+
+
+/* review no-review */
+.no-review{
+    color: #e2e2e2;
+    font-size: 21px;
+}
+
+
